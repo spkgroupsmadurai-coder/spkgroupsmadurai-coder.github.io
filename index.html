@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maghizhini Travels | Final Branded Website | Madurai</title>
+  <meta name="description" content="Maghizhini Travels Madurai - Local taxi, outstation cabs, temple tours, airport pickup, family travel and WhatsApp booking." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="floating-wa" href="https://wa.me/917550377827" target="_blank">WhatsApp</a>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">
+        <img src="assets/logo-maghizhini.svg" alt="Maghizhini Travels logo" class="logo-img">
+        <div>
+          <h1>MAGHIZHINI TRAVELS</h1>
+          <p>Madurai Taxi • Temple Tours • Outstation • Tempo Traveller</p>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="tel:7550377827">Call Now</a>
+        <a class="btn" href="#booking">Book Trip</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy reveal">
+        <span class="tag">Trusted travel service in Madurai</span>
+        <h2>Comfortable local rides, temple tours, airport pickup and outstation trips with quick WhatsApp booking.</h2>
+        <p>Maghizhini Travels serves families, tourists, pilgrims and business travelers with clean vehicles, reliable drivers and flexible trip planning from Madurai.</p>
+        <div class="hero-buttons">
+          <a class="btn" href="#booking">Book on WhatsApp</a>
+          <a class="btn btn-outline" href="#vehicles">Our Vehicles</a>
+        </div>
+      </div>
+      <div class="glass hero-card reveal">
+        <h3>Quick Contact</h3>
+        <p><strong>Owner:</strong> S. Prasanna Kumar</p>
+        <p><strong>Phone:</strong> <a href="tel:7550377827">75503 77827</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/917550377827" target="_blank">75503 77827</a></p>
+        <p><strong>Office:</strong> Athikulam, Madurai</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="vehicles">
+      <div class="section-title reveal">
+        <h2>Our Vehicles / எங்கள் வாகனங்கள்</h2>
+        <p>Vehicle showcase for Maghizhini Travels</p>
+      </div>
+      <div class="vehicle-grid">
+        <article class="glass vehicle-card reveal"><img src="assets/wagonr.svg" alt="WagonR"><h3>WagonR</h3><p>Budget-friendly city and short trip rides.</p></article>
+        <article class="glass vehicle-card reveal"><img src="assets/dzire.svg" alt="Swift Dzire"><h3>Swift Dzire</h3><p>Comfortable sedan for family and airport trips.</p></article>
+        <article class="glass vehicle-card reveal"><img src="assets/ertiga.svg" alt="Ertiga"><h3>Ertiga</h3><p>Spacious MPV for pilgrim and outstation travel.</p></article>
+        <article class="glass vehicle-card reveal"><img src="assets/tempo.svg" alt="Tempo Traveller"><h3>Tempo Traveller</h3><p>Best for group tours, family functions and events.</p></article>
+        <article class="glass vehicle-card reveal"><img src="assets/truck407.svg" alt="407 Vehicle"><h3>407</h3><p>Support for larger travel and group requirements.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title reveal">
+        <h2>Popular Travel Services</h2>
+      </div>
+      <div class="grid three">
+        <article class="glass card reveal"><h3>Madurai Local Sightseeing</h3><p>Meenakshi Temple, Thirumalai Nayakkar Mahal, Alagar Kovil and city sightseeing trips.</p></article>
+        <article class="glass card reveal"><h3>Airport & Railway Pickup</h3><p>On-time pickup and drop for Madurai Airport and railway station.</p></article>
+        <article class="glass card reveal"><h3>Outstation Cab Booking</h3><p>Kodaikanal, Rameswaram, Trichy, Palani, Tiruchendur and more.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="glass bilingual reveal">
+        <h2>தமிழில்</h2>
+        <p>மகிழினி டிராவல்ஸ், மதுரை — உள்ளூர் டாக்சி, வெளியூர் கார் சேவை, கோவில் சுற்றுலா, ஏர்போர்ட் பிக்கப், குடும்ப மற்றும் குழு பயணங்களுக்கு நம்பகமான சேவை.</p>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="section-title reveal">
+        <h2>Book Your Trip</h2>
+      </div>
+      <form id="bookingForm" class="glass booking-form reveal">
+        <input id="name" type="text" placeholder="Your Name" required />
+        <input id="phone" type="tel" placeholder="Phone Number" required />
+        <input id="pickup" type="text" placeholder="Pickup Location" required />
+        <input id="drop" type="text" placeholder="Destination" required />
+        <input id="date" type="date" required />
+        <select id="vehicle" required>
+          <option value="">Select Vehicle</option>
+          <option>WagonR</option><option>Swift Dzire</option><option>Ertiga</option><option>Tempo Traveller</option><option>407</option>
+        </select>
+        <textarea id="message" placeholder="Extra details"></textarea>
+        <button class="btn" type="submit">Send to WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Maghizhini Travels, Madurai</footer>
+  <script src="script.js"></script>
+</body>
+</html>
